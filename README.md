@@ -1,6 +1,6 @@
-# Bun Next.js 14 with Shadcn UI
+# Bun Next.js 14 with Shadcn UI, Prisma, and PostgreSQL
 
-This is a project template created with [Next.js](https://nextjs.org/) 14, utilizing [Shadcn UI](https://shadcn-ui.com/) components, and bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a project template created with [Next.js](https://nextjs.org/) 14, utilizing [Shadcn UI](https://shadcn-ui.com/) components, and bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It also integrates [Prisma](https://www.prisma.io/) as the ORM and [PostgreSQL](https://www.postgresql.org/) as the database.
 
 ## Getting Started
 
@@ -15,6 +15,9 @@ Open http://localhost:3000 with your browser to see the result.
 You can start modifying the page by editing app/page.tsx. The page will auto-update as you make changes.
 
 This project utilizes next/font for automatic optimization and loading of Inter, a custom Google Font.
+
+Database Setup
+This project uses Prisma as the ORM and PostgreSQL as the database. Before running the development server, ensure you have PostgreSQL installed and running on your machine.
 
 ## Learn More
 
