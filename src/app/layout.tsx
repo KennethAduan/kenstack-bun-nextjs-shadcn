@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { cn } from "@/lib/utils";
 import MainAppProviders from "@/providers";
+import NextTopLoader from "nextjs-toploader";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <NextTopLoader showSpinner={false} color="#EA580C" />
         <MainAppProviders>{children}</MainAppProviders>
       </body>
     </html>
